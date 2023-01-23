@@ -4,10 +4,10 @@
         <base_uri>/api/x_58872_needit/needit_api</base_uri>
         <consumes>application/json</consumes>
         <consumes_customized>true</consumes_customized>
-        <default_version>No active default version</default_version>
+        <default_version>v1</default_version>
         <doc_link>https://dev71898.service-now.com/x_58872_needit_needit_api_documentation.do</doc_link>
         <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
-        <is_versioned>false</is_versioned>
+        <is_versioned>true</is_versioned>
         <name>NeedIt API</name>
         <namespace>x_58872_needit</namespace>
         <produces>application/json,application/xml,text/xml</produces>

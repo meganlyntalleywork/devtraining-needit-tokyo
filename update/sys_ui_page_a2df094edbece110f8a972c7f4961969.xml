@@ -11,6 +11,7 @@
 The NeedIt Scripted API provides methods for interacting with data from the NeedIt application including: 
 <ul>
 <li>GET ni_getinfo: Get aggregate (count) information for records for a specific user from the NeedIt table.  The records are grouped by Request type.  The response includes the total number of NeedIt records for the user (integer), the count of NeedIt records for each Request type (array of objects), and user information (object).</li>
+<li>GET ni_getinfo(v2): Has all the same features as v1 but also includes a custom error message if the request passes an invalid user name.</li>
 </ul>
 </j:jelly>]]></html>
         <name>needit_api_documentation</name>
